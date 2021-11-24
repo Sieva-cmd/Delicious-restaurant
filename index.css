@@ -1,0 +1,289 @@
+
+.Navigation{
+    margin-bottom: 50px;
+background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    background-image: url("images/background.png");
+    background-size: cover;
+    opacity: 10;
+    color: white;
+    font-style: italic;
+    font-family: Georgia;
+
+}
+.navbar{
+    display: flex;
+
+    
+}
+.navbar h2{
+    margin-left: 60px;
+}
+
+.navbar ul{
+    margin-left: 400px;
+}
+.navbar ul li{
+    display: inline;
+    padding: 20px;
+}
+ .navbar ul li:hover{
+    color: orchid;
+    cursor: pointer;
+}
+.txt{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    font-style: italic;
+
+}
+.txt button{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    border: none;
+    background-color:#E47435;
+    margin-bottom: 100px;
+  
+}
+.txt button a{
+    text-decoration: none;
+    color: black;
+}
+.txt button a:hover{
+    color: orchid;
+    cursor: pointer;
+}
+.about-us{
+    background-color: #ffffff;
+    display: flex;
+    margin-top:60px;
+    justify-content: space-evenly;
+}
+.about_image2{
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left:-80px ;
+    margin-bottom: 80px;
+    
+}
+.about_image1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.about_txt{
+    margin-top: 100px;
+}
+.about_txt span{
+    text-decoration: underline #E47435;
+}
+
+.about_txt button{
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    border: none;
+    background-color:#E47435;
+    margin-bottom: 100px;
+  
+
+}
+.about_txt button a{
+    text-decoration: none;
+    color: black;
+}
+.about_txt button a:hover{
+    color: orchid;
+    cursor: pointer;
+}
+.container{
+    background-color:#F6F6F6;
+    margin-top: -20px;
+}
+.container .center_txt{
+    padding-top: 100px;
+    text-align: center;
+}
+.container .center_txt span{
+text-decoration: underline 2px #E47435;
+}
+.container .flex-images{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.container .flex-images .flexed{
+    border: 1px solid white;
+    background-color: #FEF5F0;
+}
+.container .flex-images #btn_cash{
+    height: 20px;
+    background-color: #E47435;
+    border: none;
+    margin-left: 140px;
+    display: block;
+    margin-top: -40px;
+}
+.container .flex-images #btn_now{
+    border: none;
+    color:#E47435 ;
+}
+.container .flexed p i{
+    color: #E47435;
+   
+}
+.container #btn_explore{
+    margin-top: 40px; 
+}
+.container #btn_explore button{
+    margin-left: 600px;
+    background-color:#E47435;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.why_choose{
+    background-color: #ffffff;
+    
+}
+
+#Why_choose_txt{
+    padding-top: 100px;
+    text-align: center;
+    
+}
+#Why_choose_txt span{
+    text-decoration: underline 4px #E47435;
+    
+}
+.why_choose .service{
+    display: flex;
+    justify-content: space-evenly;
+}
+.why_choose #services{
+    text-align: center;
+}
+.customers{
+   background-image: url("images/food2.png");
+   background-size:100% 100%;
+color: white;
+    width: 100%;
+    height: 600px;
+}
+.customers .customer_txt{
+    padding-top: 100px;
+    text-align: center;
+
+}
+.customers .customer_txt span{
+    text-decoration: underline 3px #E47435;
+}
+.customer_images{
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+#customer1{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    text-align: center;
+}
+.customer_images p i{
+    color: #E47435;
+}
+.Book_table_txt{
+    padding-top: 100px;
+    text-align: center;
+}
+.Book_table_txt span{
+    text-decoration: underline 4px #E47435;
+}
+.form{
+    margin-left: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+ form  #name, #email, #message{
+     width:1000px ;
+     height: 30px;
+     margin: 10px;
+ }
+ form #message{
+    width:1000px ;
+    height: 80px; 
+ }
+form #pnumber, #NoPersons, #date, #time{
+    width: 485px;
+    height: 30px;
+    margin: 10px;
+
+}
+form #btn{
+  margin-left: 100px;
+    text-align: center;
+   
+}
+
+form button{
+    background-color:#E47435;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+.customer_served{ 
+   background-image: url("images/burger.jpg");
+   background-size: 100% 100%;
+   display: flex;
+   height: 500px;
+   color: white;
+    display: flex;
+    opacity: 0.9;
+    justify-content: space-evenly;
+    
+   
+}
+#customer_serverd{
+    padding-top: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}  
+
+.customer_served span{
+    text-decoration: underline 2px #E47435;
+}
+.container_five{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#0E0E0E;
+    color: white;
+}
+.container_five button{
+    width: 185px;
+    background-color: #E47435;
+    border: none;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #161616;
+    color: white;
+}
+footer img{
+    background-color: white;
+}
